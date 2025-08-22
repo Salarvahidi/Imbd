@@ -4,3 +4,4 @@ celery
 django-filter
 redis
 django-elasticsearch-dsl
+django-extension

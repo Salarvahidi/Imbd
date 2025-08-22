@@ -5,3 +5,4 @@ from movie.models import Director
 @admin.register(Director)
 class DirectorAdmin(admin.ModelAdmin):
     list_display = ("id", "name", "is_active")
+    list_filter = ("is_active",)

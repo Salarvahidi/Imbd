@@ -6,3 +6,4 @@ from movie.models import Movie
 class MovieAdmin(admin.ModelAdmin):
     list_display = ("id", "name", "year")
     list_filter = "year"
+    list_filter = "id"

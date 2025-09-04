@@ -5,5 +5,4 @@ from movie.models import Movie
 @admin.register(Movie)
 class MovieAdmin(admin.ModelAdmin):
     list_display = ("id", "name", "year")
-    list_filter = "year"
-    list_filter = "id"
+    list_filter = ("year","id")
